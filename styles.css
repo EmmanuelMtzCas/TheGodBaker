@@ -1,0 +1,158 @@
+body{
+    background: black;
+
+}
+
+
+.mision p{
+    color:#fff;
+    text-align: left;
+}
+
+.atencion p{
+    color:#fff;
+    text-align: left;
+}
+
+
+.mision h2{
+  
+    color: #fff;
+    text-align: center;
+
+}
+
+.atencion h2{
+  
+    color: #fff;
+    text-align: center;
+
+}
+
+.mision img{
+
+    border-radius: 30%;
+}
+
+
+
+.pedidos h1,h2{
+color: #fff;
+
+}
+
+.pedidos input{ 
+ 
+    border-radius: 6px;
+}
+
+.tabla h1{
+    color: #fff;
+
+
+}
+
+.tabla2 h1{
+    color: #fff;
+ 
+}
+
+.tabla3 h1{
+    color: #fff;
+   
+
+}
+
+
+
+.tabla-art h1{
+    color: #fff;
+}
+
+.t {
+    color: #fff;
+    border-collapse: separate;
+    border: 3px solid white;
+}
+
+.t1 {
+    color: #fff;
+    border-collapse: separate;
+    border: 3px solid white;
+}
+
+
+nav a{
+
+    
+    text-decoration:none;
+    color:inherit;
+    font-size:20px;
+    } 
+    nav li{
+
+    display:inline-block;
+    width:10%;
+    padding:5px 5px;
+    background-color:#000;
+    border:1px solid #000;
+    text-align:center;
+    color:#fff;
+    }
+    nav li:hover{
+      
+    background-color:#fff;
+    color:#000;
+    }
+
+    .contenedor{
+        display:flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+     
+    }
+
+    .pedidos-contenedor{
+        display:flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        
+
+    }
+
+
+    .tarjeta{
+        display:flex;
+        flex-direction:column;
+        width:420px;
+        background-color: #fff;
+    }
+    .titulo{
+        font-size: 24px;
+        color: black;
+        padding: 10px 10px 0 10px;;
+    }
+    .cuerpo{
+        padding: 10px;
+        color: black;
+        }
+
+    .pie{
+        background: white;
+       
+        padding: 10px;
+        text-align:center;
+    }
+  
+    .boton {
+        background-color: black;
+        color: #fff;
+    }
+
+    .boton1{
+        background-color: white;
+        color: black;
+    }
+
+
+    

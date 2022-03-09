@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Importando css -->
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <!--Agregando icono a la pestana -->
+    <link rel="icon" href="cake.ico" sizes="32x32" type="image/png" />
+    <title>Pasteleria The GodBaker</title>
+  </head>
+  <body>
+    <!--Menu arriba -->
+    <div style="text-align: right; padding-top: 0px">
+      <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="menu.html">Menú</a></li>
+            <li><a href="pedidos.html">Pedidos</a></li>
+            <li><a href="admin.html">Admin</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <!--Imagen logo -->
+    <div style="text-align: center; padding-top: 0px">
+      <img src="logo2.jpg" width="400" height="200" />
+    </div>
+
+    <div class="pedidos-contenedor" style="text-align: center; padding-top: 0px;">
+
+        <div class="pedidos" style="text-align: center; padding-top: 0px;"  > 
+            
+            <h1>Confirma tu pedido</h1>
+            <h2>Nombre completo :    <input type="text" required > </h2>
+            <h2>Número telefónico:  <input type="text" required > </h2>
+            <h2>Correo electrónico: <input type="email"> </h2>
+            <h2>Pastel seleccionado:<input type="text" required> </h2>
+            <h2>Cantidad           :<input type="number" required min="1"> </h2>
+            <h1>TOTAL A PAGAR: $0.00 MXN</h1>
+            
+        </div>
+
+
+        
+    <div class="tabla" style="text-align: center; padding-top: 0px;"  > 
+         <h1>Rellenos extra:</h1>    
+         
+         <table class="t">
+
+            <tr>
+              <td>Relleno</td>
+              <td>Precio</td>
+              <td>Elegir</td>
+            </tr>
+          
+            <tr>
+              <td>Chocalate amargo</td>
+              <td>$30.00 MXN</td>
+              <td><input type="checkbox"></td>
+            </tr>
+
+
+              <tr>
+                <td>Fresas</td>
+                <td>$40.00 MXN</td>
+                <td><input type="checkbox"></td>
+              </tr>
+
+              <tr>
+                <td>Pure de manzana</td>
+                <td>$20.00 MXN</td>
+                <td><input type="checkbox"></td>
+              </tr>
+
+              <tr>
+                <td>Duraznos</td>
+                <td>$15.00 MXN</td>
+                <td><input type="checkbox"></td>
+              </tr>
+          </table>
+        </div>
+
+        <div class="tabla-art" style="text-align: center; padding-top: 0px;"  > 
+            <h1>Adornos:</h1>    
+            
+            <table class="t1">
+   
+               <tr>
+                 <td>Adorno</td>
+                 <td>Precio</td>
+                 <td>Elegir</td>
+               </tr>
+             
+               <tr>
+                 <td>Velas de cumpleaños</td>
+                 <td>$30.00 MXN</td>
+                 <td><input type="checkbox"></td>
+               </tr>
+   
+   
+                 <tr>
+                   <td>Globos</td>
+                   <td>$40.00 MXN</td>
+                   <td><input type="checkbox"></td>
+                 </tr>
+   
+                 <tr>
+                   <td>Letrero de felicitaciones</td>
+                   <td>$20.00 MXN</td>
+                   <td><input type="checkbox"></td>
+                 </tr>
+             </table>
+
+             <button type="button" class="boton1" onclick="parent.location='index.html'" >PAGAR TOTAL</button>
+           </div>
+
+
+
+
+    </div>
+
+  </body>
+</html>
